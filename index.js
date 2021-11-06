@@ -49,6 +49,6 @@ client.login(config.token);
 client.on('ready', () => {
     log(`Logged in as ${client.user.tag}!`);
     log(`Invite: https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`)
-    client.user.setActivity('over the people!', { type: 'WATCHING' });
+    client.user.setActivity('Bruh', { type: 'PLAYING' });
 });
 
